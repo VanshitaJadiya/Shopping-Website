@@ -1,0 +1,557 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100vw;
+    background-color: #AEDBCE;
+    
+}
+
+#page1{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+
+#logo i{
+    font-size: 20px;
+    color: #343439;
+}
+#header{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: space-between;  
+    /* position: fixed; */
+}
+
+
+#header h2{
+    color: #51557E;
+    font-family: 'Laila', sans-serif;
+
+}
+
+#links a{
+    text-decoration: none;
+    
+    padding: 30px;
+    color: #839AA8;
+
+    
+}
+#links a:hover{
+    color: #51557E;
+
+}
+#resthome{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+   
+}
+#resthome #left{
+        width: 50vw;
+        height: 86vh;
+        background-color: transparent;
+        overflow: hidden;
+}
+#left img{
+    width: 100%;
+    height: 100%;
+    animation: image 2s cubic-bezier(0.075, 0.82, 0.165, 1)  both;
+
+}
+#quote{
+    font-size: 150px;
+    font-family: 'Cinzel', serif;
+    /* padding-left: 100px;
+    padding-top: 60px; */
+    color: #472D2D;
+    position: absolute;
+    top:500px;
+    left:430px;
+    
+    animation: frontpage 0.3s cubic-bezier(0.075, 0.82, 0.165, 1) infinite alternate-reverse both;
+}
+#right{
+    width: 50vw;
+    height: 100vh;
+    padding-left: 220px;
+    padding-top: 60px;
+    
+    
+}
+#right #rotateleft{
+    width: 13.5%;
+    height: 30.5%;
+    position: absolute;
+   
+    background-color: #fff;
+    animation: rotatediv 3s cubic-bezier(0.19, 1, 0.22, 1)  infinite alternate both;
+
+}
+#right p{
+    color: #005555;
+    font-family: 'Laila', sans-serif;
+    font-size: 40px;
+    position: relative;
+    top:150px;
+    right:120px;
+    z-index: 10;
+
+}
+
+
+
+
+hr{
+    width: 700px;
+}
+
+#right h1{
+    font-size: 70px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+#img2{
+    
+    width: 300px;
+    height: 320px;
+    position: absolute;
+    right: 300px;
+    top:330px;
+    background-color: black;
+    overflow: hidden;
+    
+    
+    background-color: black;
+    overflow: hidden;
+    /* animation: image 2s cubic-bezier(0.075, 0.82, 0.165, 1)  both; */
+
+}
+#text{
+    font-size: 50px;
+    color: #005555;
+    font-family: 'Laila', sans-serif;
+    padding-top: 50px;
+    padding-left: 100px;
+    
+    
+    
+}
+
+
+#page2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding: 70px 30px;
+    
+}
+
+#imageol{
+    width: 25vw;
+    height: 45vh;
+    background-color: black;
+    margin-bottom: 30px;
+    overflow: hidden;
+
+}
+
+#imageol img{
+    width: 100%;
+    height: 100%;
+}
+
+#ol{
+    width: 26vw;
+    height: 47vh ;
+    border-color: aliceblue;
+    position: absolute;
+    top:850px;
+    left: 50px;
+    border-width:4px;
+    border-style:solid;
+
+}
+#ol button{
+    position: relative;
+    top: 310px;
+    left:100px;
+    padding: 2px;
+    background-color: transparent;
+    border-color: #839AA8;
+    color: #839AA8;
+
+}
+/* #tl{
+    width: 30vw;
+    height: 45vh;
+    background-color: black;
+} */
+
+#tl{
+    width: 30vw;
+    height: 23.5vh ;
+    border-color: aliceblue;
+    position: absolute;
+    top:1265px;
+    left: 100px;
+    border-width:4px;
+    border-style:solid;
+    z-index: 99;
+
+}
+
+#imagetl{
+    width: 30vw;
+    height: 20vh;
+    background-color: #005555;
+    position: relative;
+    top:420px;
+    right:280px;
+}
+#tl button{
+    position: relative;
+    top: 132px;
+    left:180px;
+    padding: 2px;
+    background-color: transparent;
+    border-color: #839AA8;
+    color: #839AA8;
+
+}
+
+#imagefl{
+    width: 25vw;
+    height: 60vh;
+    background-color: #005555;
+    position: absolute;
+    left:43vw;
+    top:900px;
+    
+    
+}
+
+#fl{
+    width: 25vw;
+    height: 62vh ;
+    border-color: aliceblue;
+    position: absolute;
+    top:850px;
+    left: 40.5vw;
+    border-width:4px;
+    border-style:solid;
+    z-index: 99;
+
+
+}
+#fl button{
+    position: relative;
+    top:10px;
+    left:140px;
+    padding: 2px;
+    background-color: transparent;
+    border-color: #839AA8;
+    color: #839AA8;
+
+}
+#text1{
+    position: absolute;
+    left:530px;
+    color: #005555;
+    font-family: 'Laila', sans-serif;
+    font-size: 35px;
+
+}
+
+#imagesl{
+    width: 20vw;
+    height: 40vh;
+    background-color: #005555;
+    position: absolute;
+    right:8vw;
+    top:820px;
+
+}
+#sl{
+    width: 20vw;
+    height: 42vh ;
+    border-color: aliceblue;
+    position: absolute;
+    top:850px;
+    right:6vw;
+    border-width:4px;
+    border-style:solid;
+    z-index: 99;
+}
+#sl button{
+    position: relative;
+    top:270px;
+    left:100px;
+    padding: 2px;
+    background-color: transparent;
+    border-color: #839AA8;
+    color: #839AA8;
+
+}
+#imageel{
+    width: 20vw;
+    height: 20vh;
+    background-color: #005555;
+    position: absolute;
+    right:2vw;
+    top:1200px;
+    overflow: hidden;
+
+}
+#imageel img{
+    height: 180%;
+}
+#el{
+    width: 20vw;
+    height: 23vh ;
+    border-color: aliceblue;
+    position: absolute;
+    top:1220px;
+    right:4vw;
+    border-width:4px;
+    border-style:solid;
+    z-index: 99;
+}
+#el button{
+    position: relative;
+    top:130px;
+    left:120px;
+    padding: 2px;
+    background-color: transparent;
+    border-color: #839AA8;
+    color: #839AA8;
+
+}
+#head3{
+    color: #005555;
+    font-family: 'Laila', sans-serif;
+    font-size: 35px;
+    position: relative;
+    top:100px;
+    left:650px;
+    
+
+}
+#page3{
+    width: 100vw;
+    height: 100vh;
+}
+
+#bestdeals{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+  
+    
+
+}
+.circle{
+    width: 25%;
+    height: 60%;
+    background: transparent;
+    margin-top: 8%;
+    
+    
+}
+
+.box{
+    width: 53%;
+    height: 90%;
+    border-radius: 50%;
+    background: #E3FCBF;
+    position: relative;
+    left:23%;
+    top:5%;
+   
+}
+
+.box h2{
+    font-family: 'Qwitcher Grypen', cursive;
+    color: #005555;
+    font-size: 40px;
+    position: relative;
+    top:70px;
+    right:30px;
+    white-space: nowrap;
+    animation: text 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)  infinite alternate-reverse both;
+
+}
+.box button{
+    background-color: transparent;
+    border: white;
+    position: relative;
+    top: 80px;
+    left:65px;
+    font-size: 16px;
+    padding-top: 20px;
+    color:#005555;
+    
+}
+.box button:hover{
+    color: #839AA8;
+}
+#cat1{
+    color: #005555;
+    font-family: 'Laila', sans-serif;
+    font-size: 35px;
+    position: relative;
+    margin-top: 100px;
+    left:650px;
+
+}
+
+#category{
+    background: transparent;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;;
+
+}
+.clothes{
+    width: 300px;
+    height:300px;
+    background-color: #fff;
+    margin-top: 30px;
+    color: #EEEEEE;
+    font-size: 60px;
+}
+
+.clothes img{
+    width: 100%;
+    height: 100%;
+    border-color: #472D2D;
+    border: solid;
+}
+.clothes p{
+    position: relative;
+    bottom: 200px ;
+    text-align: center;
+}
+#tops{
+    width: 300px;
+    height:300px;
+}
+#bottom{
+    width: 300px;
+    height:300px;
+}
+#ethnic{
+    width: 300px;
+    height:300px;
+}
+#onepiece{
+    width: 300px;
+    height:300px;
+}
+#tops:hover{
+    width: 320px;
+    height:320px;
+}
+#bottom:hover{
+    width: 320px;
+    height:320px;
+}
+#ethnic:hover{
+    width: 320px;
+    height:320px;
+}
+#onepiece:hover{
+    width: 320px;
+    height:320px;
+}
+#contact{
+    width: 100vw;
+    height: 20vh;
+    background: #005555;
+    margin-top: 40vh;
+    
+
+}
+#contact h1{
+    color: #AEDBCE;
+    font-family: 'Laila', sans-serif;
+    font-size: 35px;
+    padding-left: 44vw;
+    padding-top: 2vh;
+    
+}
+
+#logos{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 40px;
+    padding-top: 15px;
+    color: #AEDBCE;;
+}
+
+
+
+
+@keyframes frontpage {
+    from{
+        color: #472D2D;
+        
+    }
+    to{
+       
+        color: #BF1363;
+    }
+}
+
+@keyframes text {
+    from{
+        color:#005555; 
+    }
+    to{
+        color: #839AA8;
+    }
+    
+}
+
+@keyframes image {
+    from{
+        width: 0;
+        height: 0;
+    }
+    to{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@keyframes rotatediv {
+    0%{
+        transform: rotate(0deg);
+    }
+    33%{
+        transform: rotate(45deg);
+    }
+    66%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(135deg);
+    }
+    
+}
